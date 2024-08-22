@@ -4,12 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <script src="reset.js"></script>
+    <link id="estilo1" rel="stylesheet" href="css/estilos.css">
+    <link id="estilo2" rel="stylesheet" href="css/estilos-futuro.css" disabled>
+    <link id="estilo3" rel="stylesheet" href="css/estilos-retro.css" disabled>
+    <script src="js/reset.js"></script>
+    <script src="js/change-style.js"></script>
     <title>Document</title>
 </head>
 
 <body>
+    <select id="selectorEstilo">
+        <option value="estilo1">Estilo 1</option>
+        <option value="estilo2">Estilo 2</option>
+        <option value="estilo3">Estilo 3</option>
+    </select>
+    <button type="button" onclick="cambiarEstilo()">Cambiar Estilo</button>
     <div class="container">
         <header>
             <h1>Vení al Gym!!💪🏻</h1>
