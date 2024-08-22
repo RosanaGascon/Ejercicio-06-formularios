@@ -7,7 +7,7 @@ function resetForm() {
         var element = form.elements[i];
         
         // Borra el valor de los campos de texto, áreas de texto y selects
-        if (element.type === 'text' || element.type === 'textarea' || element.type === 'select-one') {
+        if (element.type === 'text' || element.type === 'textarea' || element.type === 'select-one'|| element.type === 'tel'|| element.type === 'email' ) {
             element.value = '';
         }
         

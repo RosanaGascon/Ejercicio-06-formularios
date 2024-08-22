@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Tint&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 body{
     margin: 0;
-    background-image:url(../img/bg-futuro.jpg);
-    font-family: "Poppins", sans-serif;
+    background:#222324;
+    font-family: "Playfair Display", serif;
     font-style: normal;
 }
 .emoji{
@@ -13,7 +13,7 @@ body{
 .container{
     max-width: 730px;
     margin: auto;
-    background: #0e0637;
+    background: #e4dcd1;
     padding-bottom: 10px;
 
 }
@@ -28,11 +28,10 @@ header{
 
 h1{
     padding: 30px;
-    font-size: 3rem;
-    background: linear-gradient(to right, #e0637f, #5c4bde, #e0b59e);
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+    color: #222324;
+    font-family: "Bebas Neue", sans-serif;
+
 }
 #dashed{
     border: 1px dashed white;
@@ -46,33 +45,37 @@ hr{
     border-right: none;
     max-width: 45%;
     margin: 30px auto;
+    display: none;
 }
 #data, #contacto, #actividades{
     margin: 50px;
 }
 
 fieldset{
-    background: #231c48;
+    background: #222324;
     border-radius: 3px;
     border: solid 1px white;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 #actividades fieldset{
-    background: #231c48;
-    align-items: start;
+    background: #222324;
+    align-items: center;
     padding-top: 20px;
+    padding-left: 10px;
 }
 
 legend{
     border-radius: 6px;
     background: white;
     color: #231c48;
-    margin-left: 1em; 
-    padding: 0.2em 0.8em;
+    margin: auto;
+    padding: 1.2em 2.8em;
     text-transform: uppercase;
     font-weight: bold;
 
@@ -102,12 +105,11 @@ label{
     border-radius: 6px;
     font-family: 'Poppins';
     font-size: medium;
-    border: 1px solid #4b6e62;
 }
 
 input:focus, textarea:focus {
-    background-color: #231c48;
-    color: white;
+    background-color: gainsboro;
+    color: black;
 }
 
 .form-align select{
@@ -116,8 +118,6 @@ input:focus, textarea:focus {
     border-radius: 6px;
     font-family: 'Poppins';
     font-size: medium;
-    color: #4b6e62;
-    border: 1px solid #4b6e62;
 
 }
 .form-align textarea{
@@ -125,7 +125,6 @@ input:focus, textarea:focus {
     border-radius: 6px;
     font-family: 'Poppins';
     font-size: medium;
-    border: 1px solid #4b6e62;
 
 }
 
@@ -135,7 +134,7 @@ input[type="tel"]::placeholder, input[type="email"]::placeholder{
 }
 
 .conditions {
-    color: white;
+    color: black;
 }
 
 #submit{
@@ -145,13 +144,17 @@ input[type="tel"]::placeholder, input[type="email"]::placeholder{
 }
 
 input[type="submit"], input[type="button"]{
-    background: linear-gradient(to right, #e0637f, #5c4bde, #e0b59e);    
+    background: black;    
     color: white;
+    font-family: "Playfair Display", serif;
     font-size: medium;
-    font-family: 'Poppins';
     padding: 10px 20px;
     border-radius: 6px;
     border: 1px solid white;
+}
+
+label[for=condiciones], label[for=novedades] {
+    color: black;
 }
 
 .d-block{

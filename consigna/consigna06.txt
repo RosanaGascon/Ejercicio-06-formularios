@@ -10,15 +10,16 @@
 	- El primero deberá nombrarse "estilos.css", y allí deberán incorporar las reglas de estilo para lograr que 
 	la página se vea como la diseñé yo para el Bootcamp y cuyas imágenes y video les paso de referencia.
 
-	- Adicionalmente a esto, deberán crear otros 2 archivos CSS vacíos y aplicar en ellos otros estilos para lograr 2 diseños adicionales totalmente distintos, 
-	basados en 2 de las siguientes 4 temáticas:
+	- Adicionalmente a esto, deberán crear otros 2 archivos CSS vacíos y aplicar en ellos otros estilos para 
+	lograr 2 diseños adicionales totalmente distintos, basados en 2 de las siguientes 4 temáticas:
 
 	Retro (estilos-retro.css)
 	Futuro (estilos-futuro.css)
 	Películas (estilos-peliculas.css)
 	Urbano (estilos-urbano.css)
 
-	- De allí deberán elegir 2 temáticas y generar los 2 archivos de CSS adicionales con los nombres que se indican entre paréntesis.
+	- De allí deberán elegir 2 temáticas y generar los 2 archivos de CSS adicionales con los nombres que se 
+	indican entre paréntesis.
 
 	- Para hacer esto les sugiero navegar por distintos sitios, buscando ideas.
 
